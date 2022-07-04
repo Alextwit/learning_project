@@ -1,0 +1,26 @@
+<h1>SERVICE TEST</h1>
+<div data-sly-use.model="com.adobe.aem.guides.wknd.core.models.ServiceListModel"></div>
+
+
+<!--
+<div data-sly-list.item="${model.pagesList}">
+    <p> Page ${itemList.count} Title <b>${item.title}</b></p>
+</div>-->
+
+<!--
+<div>${model.name}</div>
+<div>${model.nameOne}</div>
+<div>${model.nameTwo}</div>
+<div>${model.nameThree}</div>
+<div>${model.nameFour}</div>-->
+
+<h3>Multiple Implementation Services</h3>
+<div data-sly-list.item="${model.services}">
+    <p>${item.name}</p>
+</div>
+
+
+<h3>Configuration Factory Services</h3>
+<div data-sly-list.item="${model.configurationFactoryList}">
+    <p>${item.name}</p>
+</div>
