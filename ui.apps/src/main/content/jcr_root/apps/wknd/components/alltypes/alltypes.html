@@ -1,0 +1,20 @@
+<div data-sly-use.at="com.adobe.aem.guides.wknd.core.models.AllTypeModel">
+
+<h2>This is a component with different widgets</h2>
+    <p>Checkbox is ${at.checked}</p>
+    <p>First TextField is ${at.example}</p>
+    <p>Second TextField is ${at.brandSlogan}</p>
+    <p>TextArea is ${at.description}</p>
+    <p>LogoPath is ${at.logoPath}</p>
+    <div data-sly-list.atc="${at.countries}">
+        <p>Name of country ${atc.name}</p>
+        <p>Code of country ${atc.code}</p>
+    </div>
+    <p>Select form choose is ${at.linkTarget}</p>
+    <p>Radio Buttons select is ${at.columns}</p>
+    <p>Age Restriction number field is ${at.ageRestriction}</p>
+    <p>Upload file from any place url is ${at.fileReferenceDam}</p>
+    <p>Upload file from dam url is ${at.fileReference}</p>
+    <p>Color field choose is ${at.brandColor}</p>
+    <p>Color field with properties choose is ${at.brandColors}</p>
+</div>
